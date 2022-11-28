@@ -108,7 +108,7 @@ class Math {
         while (~(j < 0)) {
             let temp = y + twoToThe[j];
             let temp2 = temp * temp;
-            if (~(temp2 > x) & (temp2 > 0)) {
+            if (~(temp2 > x) & temp2 > 0) {
                 let y = temp;
             }
             let j = j - 1;
